@@ -1,0 +1,17 @@
+#!/bin/bash
+
+# This file is part of http://mkschreder.github.io
+# Copyright (c) 2015-2016 Martin K. Schröder <mkschreder.uk@gmail.com>
+
+# juci main page is actually in the template 
+cp src/index.md.tpl index.md
+
+# generate list of projects
+for proj in src/*-project.md; do 
+	title=$(basename ${proj%.md}); 
+	sed -i "/%PROJECTS_TOC%/i * [$title]($title.html)" index.md; 
+done
+
+# remove the placebolders 	
+sed -i "/%PROJECTS_TOC%/d" index.md
+
