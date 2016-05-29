@@ -38,5 +38,5 @@ readme.
 Contact
 ===
 
-Email: mkschreder.uk@gmail.com
-Github: mkschreder.github.com
+* Email: mkschreder.uk@gmail.com
+* Github: mkschreder.github.com

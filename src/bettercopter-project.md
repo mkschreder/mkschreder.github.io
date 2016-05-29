@@ -13,4 +13,4 @@ mechanics behind them. I prefer to see it as a leraning experience.
 Links
 ===
 
-* Github repository: https://github.com/mkschreder/bettercopter
+* Github repository: [https://github.com/mkschreder/bettercopter](https://github.com/mkschreder/bettercopter)
